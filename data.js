@@ -1,9 +1,19 @@
 const userData = require(`./userdata`);
 
-const wage = {
-  c: 60, // 사장
-  e: 50, // 임원
-  s: 40, // 직원
+const wage1 = {
+  c: 80, // 사장
+};
+
+const wage2 = {
+  c: 100, // 사장
+  e: 80, // 임원
+  s: 50, // 직원
+};
+
+const wage3 = {
+  c: 130, // 사장
+  e: 90, // 임원
+  s: 60, // 직원
 };
 
 const ownerId = "251349298300715008";
@@ -149,7 +159,8 @@ const companies = [
       { userId: userData.juin10, level: "c" },
       { userId: userData.sis, level: "e" },
       { userId: userData.qudi, level: "e" },
-      { userId: userData.jjambob, level: "e" },
+      { userId: userData.jjambob, level: "s" },
+      { userId: userData.ddpson, level: "s" },
     ],
   },
   {
@@ -185,7 +196,10 @@ const companies = [
     members: [
       { userId: userData.nuri, level: "c" },
       { userId: userData.jjoro, level: "e" },
-      { userId: userData.sangwoo, level: "e" },
+      { userId: userData.pomo, level: "e" },
+      { userId: userData.ddpson, level: "s" },
+      { userId: userData.chobom, level: "s" },
+      { userId: userData.sangwoo, level: "s" },
     ],
   },
   {
@@ -203,7 +217,7 @@ const companies = [
       { userId: userData.chobom, level: "c" },
       { userId: userData.ddpson, level: "c" },
       { userId: userData.syuyom, level: "e" },
-      { userId: userData.haechan, level: "s" },
+      { userId: userData.aniemare, level: "e" },
     ],
   },
   {
@@ -230,13 +244,29 @@ const companies = [
   },
   {
     // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    companyName: "늘보와케플러",
+    members: [
+      { userId: userData.urban_victory, level: "c" },
+      { userId: userData.aaajaeoh, level: "e" },
+      { userId: userData.pporong, level: "e" },
+      { userId: userData.metaluca, level: "s" },
+      { userId: userData.mamamumu, level: "s" },
+      { userId: userData.cuisinerabbit, level: "s" },
+      { userId: userData.misolatte, level: "s" },
+      { userId: userData.enovationera, level: "s" },
+    ],
   },
   {
     // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    companyName: "늘보기획",
+    members: [
+      { userId: userData.mamamumu, level: "c" },
+      { userId: userData.metaluca, level: "c" },
+      { userId: userData.urban_victory, level: "e" },
+      { userId: userData.pporong, level: "e" },
+      { userId: userData.cuisinerabbit, level: "s" },
+      { userId: userData.misolatte, level: "s" },
+    ],
   },
   {
     // 양식
@@ -271,7 +301,9 @@ const companies = [
 ];
 
 module.exports = {
-  wage,
+  wage1,
+  wage2,
+  wage3,
   companies,
   ownerId,
 };

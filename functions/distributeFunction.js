@@ -1,4 +1,4 @@
-const { wage, companies, ownerId } = require(`../data`);
+const { wage1, wage2, wage3, companies, ownerId } = require(`../data`);
 const BankManager = require(`../bank/BankManager`);
 const bankManager = new BankManager();
 
@@ -11,7 +11,7 @@ async function distribute(interaction) {
 
   await interaction.deferReply();
 
-  function getWageSum(companies) {
+  function getWageSum(companies, wage) {
     let wageSum = 0;
     for (let member of companies.members) {
       const weeklyWage = wage[member.level] * 7;
@@ -24,7 +24,13 @@ async function distribute(interaction) {
   let message = "해당 이름의 사업체가 존재하지 않습니다.";
   for (let com of companies) {
     if (com.companyName == companyName) {
-      const wageSum = getWageSum(com);
+      let wage = {};
+      if (com.members.length == 1) {
+        wage = wage1;
+      } else if (com.members.length < 4) {
+        wage = wage2;
+      } else wage = wage3;
+      const wageSum = getWageSum(com, wage);
       try {
         await bankManager.depositBTC(ownerId, String(wageSum));
         await interaction.editReply(

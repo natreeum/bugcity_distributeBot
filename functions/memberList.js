@@ -1,8 +1,9 @@
-const { wage, companies, ownerId } = require(`../data`);
+const { wage1, wage2, wage3, companies, ownerId } = require(`../data`);
 
-function getWageSum(companies) {
+function getWageSum(companies, wage) {
   let wageSum = 0;
   for (let member of companies.members) {
+    // console.log(wage);
     const weeklyWage = wage[member.level] * 7;
     wageSum += weeklyWage;
   }
@@ -22,7 +23,13 @@ async function showMember(interaction) {
   let memberMessage = "";
   for (let com of companies) {
     if (com.companyName == companyName) {
-      wageSum = getWageSum(com);
+      let wage = {};
+      if (com.members.length == 1) {
+        wage = wage1;
+      } else if (com.members.length < 4) {
+        wage = wage2;
+      } else wage = wage3;
+      wageSum = getWageSum(com, wage);
       for (let member of com.members) {
         if (member.level == "c") {
           memberMessage += `[사장 : ${wage.c * 7} BTC] <@${member.userId}>\n`;

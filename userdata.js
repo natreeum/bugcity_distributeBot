@@ -42,6 +42,15 @@ const userData = {
   hongkyung: "983184652204408862",
   tinley: "926024503304273993",
   samko: "396655227421327380",
+  aniemare: "939339638500380803",
+  urban_victory: "931513127638548501",
+  aaajaeoh: "856169450205085706",
+  pporong: "941000212049166336",
+  metaluca: "940469132346933319",
+  mamamumu: "984420217897762847",
+  cuisinerabbit: "243342233921781760",
+  misolatte: "958008100177215498",
+  enovationera: "900405839276425259",
 };
 
 module.exports = userData;
