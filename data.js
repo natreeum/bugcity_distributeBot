@@ -18,6 +18,8 @@ const wage3 = {
 
 const ownerId = "251349298300715008";
 
+const staffs = ["1014127440831991880", "415907070626234406"];
+
 const companies = [
   {
     //벅크셔해서웨이
@@ -25,6 +27,7 @@ const companies = [
     members: [
       { userId: userData.natreeum, level: "c" },
       { userId: userData.dk, level: "s" },
+      { userId: userData.heali, level: "e" },
     ],
   },
   {
@@ -257,7 +260,7 @@ const companies = [
     ],
   },
   {
-    // 양식
+    // 늘보기획
     companyName: "늘보기획",
     members: [
       { userId: userData.mamamumu, level: "c" },
@@ -306,4 +309,5 @@ module.exports = {
   wage3,
   companies,
   ownerId,
+  staffs,
 };

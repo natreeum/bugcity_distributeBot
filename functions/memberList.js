@@ -1,4 +1,4 @@
-const { wage1, wage2, wage3, companies, ownerId } = require(`../data`);
+const { wage1, wage2, wage3, companies, ownerId, staffs } = require(`../data`);
 
 function getWageSum(companies, wage) {
   let wageSum = 0;
@@ -11,8 +11,10 @@ function getWageSum(companies, wage) {
 }
 
 async function showMember(interaction) {
-  if (interaction.user.id != ownerId) {
-    await interaction.reply(`<@${ownerId}>만 명령어를 사용할 수 있습니다.`);
+  if (interaction.user.id != ownerId && !staffs.includes(interaction.user.id)) {
+    await interaction.reply(
+      `벅크셔해서웨이 직원만 명령어를 사용할 수 있습니다.`
+    );
     return;
   }
 
@@ -47,9 +49,10 @@ async function showMember(interaction) {
       }
     }
   }
-  if (wageSum == 0) {
+  if (memberMessage.length === 0) {
     memberMessage =
       "해당 이름의 사업체가 존재하지 않습니다. 사업체 이름을 다시 확인해 주세요.";
+    await interaction.editReply(memberMessage);
   } else {
     await interaction.editReply(
       `**[${companyName}]**의 직원명단입니다. 총 급여는 ${wageSum} BTC 입니다.\n\n${memberMessage}`
