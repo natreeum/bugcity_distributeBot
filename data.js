@@ -5,8 +5,8 @@ const wage1 = {
 };
 
 const wage2 = {
-  c: 2, // 사장
-  e: 1, // 임원
+  c: 100, // 사장
+  e: 80, // 임원
   s: 50, // 직원
 };
 
@@ -18,7 +18,11 @@ const wage3 = {
 
 const ownerId = "251349298300715008";
 
-const staffs = ["1014127440831991880", "415907070626234406"];
+const staffs = [
+  "1014127440831991880",
+  "415907070626234406",
+  "973834622746120222",
+];
 
 const companies = [
   {
@@ -27,6 +31,7 @@ const companies = [
     members: [
       { userId: userData.natreeum, level: "c" },
       { userId: userData.heali, level: "e" },
+      { userId: userData.ddpson, level: "e" },
     ],
   },
   {
@@ -36,6 +41,7 @@ const companies = [
       { userId: userData.natreeum, level: "c" },
       { userId: userData.dk, level: "s" },
       { userId: userData.heali, level: "e" },
+      { userId: userData.ddpson, level: "s" },
     ],
   },
   {
