@@ -66,8 +66,8 @@ const companies = [
       { userId: userData.project7, level: "s" },
       { userId: userData.jaylim, level: "s" },
       { userId: userData.sunny, level: "s" },
-      { userId: userData.haechan, level: "s" },
-      { userId: userData.hydra, level: "s" },
+      // { userId: userData.haechan, level: "s" },
+      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
@@ -85,8 +85,8 @@ const companies = [
       { userId: userData.project7, level: "s" },
       { userId: userData.jaylim, level: "s" },
       { userId: userData.sunny, level: "s" },
-      { userId: userData.haechan, level: "s" },
-      { userId: userData.hydra, level: "s" },
+      // { userId: userData.haechan, level: "s" },
+      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
@@ -104,8 +104,8 @@ const companies = [
       { userId: userData.project7, level: "s" },
       { userId: userData.jaylim, level: "s" },
       { userId: userData.sunny, level: "s" },
-      { userId: userData.haechan, level: "s" },
-      { userId: userData.hydra, level: "s" },
+      // { userId: userData.haechan, level: "s" },
+      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
@@ -124,21 +124,15 @@ const companies = [
       { userId: userData.jaylim, level: "s" },
       { userId: userData.sunny, level: "s" },
       { userId: userData.haechan, level: "s" },
-      { userId: userData.hydra, level: "s" },
+      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
-    // 느프트지원단
-    companyName: "느프트지원단",
+    // 벅풍선
+    companyName: "벅풍선",
     members: [
       { userId: userData.ggoma, level: "c" },
-      { userId: userData.talent, level: "c" },
-      { userId: userData.woljo, level: "c" },
-      { userId: userData.tomo, level: "c" },
-      { userId: userData.dk, level: "c" },
-      { userId: userData.project7, level: "c" },
-      { userId: userData.sunny, level: "c" },
-      { userId: userData.inochi, level: "c" },
+      { userId: userData.haechan, level: "s" },
     ],
   },
   {
