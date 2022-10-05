@@ -1,10 +1,16 @@
-const { wage1, wage2, wage3, companies, ownerId } = require(`../data`);
+const { wage1, wage2, wage3, companies, ownerId, staffs } = require(`../data`);
 const BankManager = require(`../bank/BankManager`);
 const bankManager = new BankManager();
 
 async function distribute(interaction) {
-  if (interaction.user.id != ownerId) {
-    await interaction.reply(`<@${ownerId}>만 명령어를 사용할 수 있습니다.`);
+  // if (interaction.user.id != ownerId) {
+  //   await interaction.reply(`<@${ownerId}>만 명령어를 사용할 수 있습니다.`);
+  //   return;
+  // }
+  if (interaction.user.id != ownerId && !staffs.includes(interaction.user.id)) {
+    await interaction.reply(
+      `벅크셔해서웨이 직원만 명령어를 사용할 수 있습니다.`
+    );
     return;
   }
   const companyName = interaction.options.getString("company");
