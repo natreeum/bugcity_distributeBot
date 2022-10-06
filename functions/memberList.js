@@ -47,6 +47,11 @@ async function showMember(interaction) {
           memberMessage += `[직원 : ${wage.s * 7} BTC] <@${member.userId}>\n`;
         }
       }
+      for (let member of com.members) {
+        if (member.level == "v") {
+          memberMessage += `[휴무 : ${wage.v * 7} BTC] <@${member.userId}>\n`;
+        }
+      }
     }
   }
   if (memberMessage.length === 0) {

@@ -2,19 +2,29 @@ const userData = require(`./userdata`);
 
 const wage1 = {
   c: 80, // 사장
+  v: 0, // 휴무
 };
 
 const wage2 = {
   c: 100, // 사장
   e: 80, // 임원
   s: 50, // 직원
+  v: 0, // 휴무
 };
 
 const wage3 = {
   c: 130, // 사장
   e: 90, // 임원
   s: 60, // 직원
+  v: 0, // 휴무
 };
+
+// const wage3 = {
+//   c: 3, // 사장
+//   e: 2, // 임원
+//   s: 1, // 직원
+//   v: 0, // 휴무
+// };
 
 const ownerId = "251349298300715008";
 
@@ -29,9 +39,11 @@ const companies = [
     //벅크셔해서웨이
     companyName: "벅크셔해서웨이테스트",
     members: [
-      { userId: userData.natreeum, level: "c" },
       { userId: userData.heali, level: "e" },
       { userId: userData.ddpson, level: "e" },
+      { userId: userData.natreeum, level: "c" },
+      { userId: userData.natreeum, level: "v" },
+      { userId: userData.natreeum, level: "s" },
     ],
   },
   {

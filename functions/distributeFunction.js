@@ -49,13 +49,58 @@ async function distribute(interaction) {
       await interaction.followUp(
         `__${com.companyName}__ 사업체의 급여분배를 시작합니다.\n`
       );
+
+      // for (let member of com.members) {
+      //   const weeklyWage = wage[member.level] * 7;
+      //   try {
+      //     await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+      //     message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+      //   } catch (e) {
+      //     console.log(e);
+      //   }
+      // }
+
       for (let member of com.members) {
-        const weeklyWage = wage[member.level] * 7;
-        try {
-          await bankManager.withdrawBTC(member.userId, String(weeklyWage));
-          message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
-        } catch (e) {
-          console.log(e);
+        if (member.level == "c") {
+          const weeklyWage = wage[member.level] * 7;
+          try {
+            await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+            message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+          } catch (e) {
+            console.log(e);
+          }
+        }
+      }
+      for (let member of com.members) {
+        if (member.level == "e") {
+          const weeklyWage = wage[member.level] * 7;
+          try {
+            await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+            message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+          } catch (e) {
+            console.log(e);
+          }
+        }
+      }
+      for (let member of com.members) {
+        if (member.level == "s") {
+          const weeklyWage = wage[member.level] * 7;
+          try {
+            await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+            message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+          } catch (e) {
+            console.log(e);
+          }
+        }
+      }
+      for (let member of com.members) {
+        if (member.level == "v") {
+          const weeklyWage = wage[member.level] * 7;
+          try {
+            message += `<@${member.userId}> 휴무상태로 주급이 분배되지않았습니다.`;
+          } catch (e) {
+            console.log(e);
+          }
         }
       }
     }
