@@ -50,15 +50,22 @@ async function distribute(interaction) {
         `__${com.companyName}__ 사업체의 급여분배를 시작합니다.\n`
       );
 
-      // for (let member of com.members) {
-      //   const weeklyWage = wage[member.level] * 7;
-      //   try {
-      //     await bankManager.withdrawBTC(member.userId, String(weeklyWage));
-      //     message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
-      //   } catch (e) {
-      //     console.log(e);
-      //   }
-      // }
+      //투귀단 로직 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      if (com.companyName === "투귀단") {
+        for (let member of com.members) {
+          let memberCnt = com.members.length;
+          const weeklyWage = Math.floor(wageSum / memberCnt);
+          try {
+            await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+            message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+          } catch (e) {
+            console.log(e);
+          }
+        }
+        await interaction.followUp(`${message}`);
+        return;
+      }
+      //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
 
       for (let member of com.members) {
         if (member.level == "c") {

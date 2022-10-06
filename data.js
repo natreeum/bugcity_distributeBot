@@ -292,9 +292,22 @@ const companies = [
     ],
   },
   {
-    // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    // 투귀단
+    companyName: "투귀단",
+    members: [
+      { userId: userData.samko, level: "c" },
+      { userId: userData.positivecoin, level: "e" },
+      { userId: userData.dk, level: "e" },
+      { userId: userData.huf, level: "e" },
+      { userId: userData.qudi, level: "e" },
+      { userId: userData.jinhyeok, level: "s" },
+      { userId: userData.salt, level: "s" },
+      { userId: userData.pazzomi, level: "s" },
+      { userId: userData.jjoro, level: "s" },
+      { userId: userData.haechan, level: "s" },
+      { userId: userData.nobiguri, level: "v" },
+      { userId: userData.hans, level: "v" },
+    ],
   },
   {
     // 양식

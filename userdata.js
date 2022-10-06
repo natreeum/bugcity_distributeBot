@@ -52,6 +52,11 @@ const userData = {
   misolatte: "958008100177215498",
   enovationera: "900405839276425259",
   heali: "1014127440831991880",
+  positivecoin: "496619115382046731",
+  jinhyeok: "804613357943390218",
+  salt: "730092777009971320",
+  nobiguri: "396655167786975235",
+  pazzomi: "247333169370628096",
 };
 
 module.exports = userData;
