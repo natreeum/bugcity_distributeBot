@@ -61,7 +61,9 @@ const companies = [
     companyName: "카지노",
     members: [
       { userId: userData.natreeum, level: "c" },
-      { userId: userData.juin10, level: "s" },
+      { userId: userData.juin10, level: "e" },
+      { userId: userData.heali, level: "e" },
+      { userId: userData.ddpson, level: "e" },
     ],
   },
   {
