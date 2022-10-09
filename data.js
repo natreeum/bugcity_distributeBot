@@ -53,7 +53,7 @@ const companies = [
       { userId: userData.natreeum, level: "c" },
       { userId: userData.dk, level: "s" },
       { userId: userData.heali, level: "e" },
-      { userId: userData.ddpson, level: "s" },
+      { userId: userData.ddpson, level: "e" },
     ],
   },
   {
@@ -62,8 +62,8 @@ const companies = [
     members: [
       { userId: userData.natreeum, level: "c" },
       { userId: userData.juin10, level: "e" },
-      { userId: userData.heali, level: "e" },
-      { userId: userData.ddpson, level: "e" },
+      { userId: userData.heali, level: "s" },
+      { userId: userData.ddpson, level: "s" },
     ],
   },
   {
