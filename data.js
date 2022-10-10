@@ -243,6 +243,7 @@ const companies = [
       { userId: userData.ddpson, level: "c" },
       { userId: userData.syuyom, level: "e" },
       { userId: userData.aniemare, level: "e" },
+      { userId: userData.kumamon, level: "e" },
     ],
   },
   {
@@ -254,6 +255,7 @@ const companies = [
       { userId: userData.kumamo, level: "e" },
       { userId: userData.nuri, level: "e" },
       { userId: userData.tomo, level: "e" },
+      { userId: userData.jinsr, level: "e" },
     ],
   },
   {
@@ -265,6 +267,17 @@ const companies = [
       { userId: userData.tinley, level: "c" },
       { userId: userData.samko, level: "e" },
       { userId: userData.kumamo, level: "e" },
+    ],
+  },
+  {
+    // 애니멀스튜디오
+    companyName: "애니멀스튜디오",
+    members: [
+      { userId: userData.chobom, level: "c" },
+      { userId: userData.ddpson, level: "c" },
+      { userId: userData.aniemare, level: "e" },
+      { userId: userData.syuyom, level: "s" },
+      { userId: userData.kumamo, level: "s" },
     ],
   },
   {
@@ -324,9 +337,16 @@ const companies = [
     ],
   },
   {
-    // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    // 요술옷장
+    companyName: "요술옷장",
+    members: [
+      { userId: userData.nuri, level: "c" },
+      { userId: userData.pomo, level: "e" },
+      { userId: userData.jjoro, level: "e" },
+      { userId: userData.ddpson, level: "s" },
+      { userId: userData.chobom, level: "s" },
+      { userId: userData.sangwoo, level: "v" },
+    ],
   },
   {
     // 양식

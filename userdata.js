@@ -61,6 +61,8 @@ const userData = {
   meira: "963631003497291826",
   clova: "983218969928409088",
   dudung: "982859019960061992",
+  kumamon: "722724230189285377",
+  jinsr: "934745466531368991",
 };
 
 module.exports = userData;
