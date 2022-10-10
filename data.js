@@ -217,14 +217,14 @@ const companies = [
   },
   {
     // 누리끼리 스티커
-    companyName: "누리끼리스티커",
+    companyName: "요술옷장",
     members: [
       { userId: userData.nuri, level: "c" },
       { userId: userData.jjoro, level: "e" },
       { userId: userData.pomo, level: "e" },
       { userId: userData.ddpson, level: "s" },
       { userId: userData.chobom, level: "s" },
-      { userId: userData.sangwoo, level: "s" },
+      { userId: userData.sangwoo, level: "v" },
     ],
   },
   {
@@ -334,18 +334,6 @@ const companies = [
       { userId: userData.clova, level: "s" }, //클로바
       { userId: userData.dudung, level: "s" }, //두둥
       { userId: userData.hongkyung, level: "s" },
-    ],
-  },
-  {
-    // 요술옷장
-    companyName: "요술옷장",
-    members: [
-      { userId: userData.nuri, level: "c" },
-      { userId: userData.pomo, level: "e" },
-      { userId: userData.jjoro, level: "e" },
-      { userId: userData.ddpson, level: "s" },
-      { userId: userData.chobom, level: "s" },
-      { userId: userData.sangwoo, level: "v" },
     ],
   },
   {
