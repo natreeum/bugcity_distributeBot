@@ -50,7 +50,7 @@ const companies = [
     //벅크셔해서웨이
     companyName: "벅크셔해서웨이",
     members: [
-      { userId: userData.natreeum, level: "c" },
+      { userId: userData.natreeum, level: "v" },
       { userId: userData.dk, level: "s" },
       { userId: userData.heali, level: "e" },
       { userId: userData.ddpson, level: "e" },
