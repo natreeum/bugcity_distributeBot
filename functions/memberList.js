@@ -25,12 +25,18 @@ async function showMember(interaction) {
   let memberMessage = "";
   for (let com of companies) {
     if (com.companyName == companyName) {
+      //count Member
+      let memCnt = 0;
+      for (let mem of com.members) {
+        if (mem.level !== "c") memCnt++;
+      }
       let wage = {};
-      if (com.members.length == 1) {
+      if (memCnt == 1) {
         wage = wage1;
-      } else if (com.members.length < 4) {
+      } else if (memCnt < 4) {
         wage = wage2;
       } else wage = wage3;
+
       wageSum = getWageSum(com, wage);
       for (let member of com.members) {
         if (member.level == "c") {

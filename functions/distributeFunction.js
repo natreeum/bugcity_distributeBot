@@ -31,12 +31,18 @@ async function distribute(interaction) {
   let message = "해당 이름의 사업체가 존재하지 않습니다.";
   for (let com of companies) {
     if (com.companyName == companyName) {
+      //count Member
+      let memCnt = 0;
+      for (let mem of com.members) {
+        if (mem.level !== "c") memCnt++;
+      }
       let wage = {};
-      if (com.members.length == 1) {
+      if (memCnt == 1) {
         wage = wage1;
-      } else if (com.members.length < 4) {
+      } else if (memCnt < 4) {
         wage = wage2;
       } else wage = wage3;
+
       const wageSum = getWageSum(com, wage);
       try {
         await bankManager.depositBTC(customer.id, String(wageSum));
