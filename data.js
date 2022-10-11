@@ -348,9 +348,16 @@ const companies = [
     ],
   },
   {
-    // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    // 날라리발까락
+    companyName: "날라리발까락",
+    members: [
+      { userId: userData.nalrari, level: "c" },
+      { userId: userData.lua, level: "e" },
+      { userId: userData.michellemarine, level: "e" },
+      { userId: userData.hongkyung, level: "s" },
+      { userId: userData.reho, level: "s" },
+      { userId: userData.iliruda, level: "s" },
+    ],
   },
   {
     // 양식

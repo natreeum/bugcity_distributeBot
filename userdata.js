@@ -63,6 +63,9 @@ const userData = {
   dudung: "982859019960061992",
   kumamon: "722724230189285377",
   jinsr: "934745466531368991",
+  nalrari: "981758374620303420",
+  michellemarine: "880660824165842984",
+  iliruda: "793086503403520011",
 };
 
 module.exports = userData;
