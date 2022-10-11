@@ -64,11 +64,12 @@ const pingCommandBuilder = new SlashCommandBuilder()
           .setDescription(`enter company name`)
           .setRequired(true)
       )
-      .addUserOption((o) => {
-        o.setName("customer")
+      .addUserOption((o) =>
+        o
+          .setName("customer")
           .setDescription(`select customer`)
-          .setRequired(true);
-      })
+          .setRequired(true)
+      )
   );
 
 module.exports = pingCommandBuilder;
