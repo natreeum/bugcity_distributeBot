@@ -35,7 +35,7 @@ async function showMember(interaction) {
       for (let member of com.members) {
         if (member.level == "c") {
           // memberMessage += `[사장 : ${wage.c * 7} BTC] <@${member.userId}>\n`;
-          memberMessage += `[사장 : 사장직급의 급여는 분배하지 않습니다.] <@${member.userId}>`;
+          memberMessage += `[사장 : 사장직급의 급여는 분배하지 않습니다.] <@${member.userId}>\n`;
         }
       }
       for (let member of com.members) {
