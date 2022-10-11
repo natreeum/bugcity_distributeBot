@@ -1,4 +1,12 @@
-const { wage1, wage2, wage3, companies, ownerId, staffs } = require(`../data`);
+const {
+  wage1,
+  wage2,
+  wage3,
+  wage_t,
+  companies,
+  ownerId,
+  staffs,
+} = require(`../data`);
 const BankManager = require(`../bank/BankManager`);
 const bankManager = new BankManager();
 
@@ -60,6 +68,7 @@ async function distribute(interaction) {
 
       //투귀단 로직 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
       if (com.companyName === "투귀단") {
+        wageSum = getWageSum(com, wage_t);
         for (let member of com.members) {
           let memberCnt = com.members.length;
           const weeklyWage = Math.floor(wageSum / memberCnt);

@@ -17,9 +17,14 @@ const wage3 = {
   e: 90, // 임원
   s: 60, // 직원
   v: 0, // 휴무
-  t: 130,
 };
 
+const wage_t = {
+  c: 130, // 사장
+  e: 90, // 임원
+  s: 60, // 직원
+  v: 0, // 휴무
+};
 // const wage3 = {
 //   c: 3, // 사장
 //   e: 2, // 임원
@@ -358,6 +363,7 @@ module.exports = {
   wage1,
   wage2,
   wage3,
+  wage_t,
   companies,
   ownerId,
   staffs,
