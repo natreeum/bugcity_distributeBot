@@ -51,6 +51,7 @@ async function distribute(interaction) {
         );
       } catch (e) {
         console.log(e);
+        return;
       }
       message = ``;
       await interaction.followUp(
