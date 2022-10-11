@@ -34,7 +34,8 @@ async function showMember(interaction) {
       wageSum = getWageSum(com, wage);
       for (let member of com.members) {
         if (member.level == "c") {
-          memberMessage += `[사장 : ${wage.c * 7} BTC] <@${member.userId}>\n`;
+          // memberMessage += `[사장 : ${wage.c * 7} BTC] <@${member.userId}>\n`;
+          memberMessage += `[사장 : 사장직급의 급여는 분배하지 않습니다.] <@${member.userId}>`;
         }
       }
       for (let member of com.members) {
@@ -60,7 +61,7 @@ async function showMember(interaction) {
     await interaction.editReply(memberMessage);
   } else {
     await interaction.editReply(
-      `**[${companyName}]**의 직원명단입니다. 총 급여는 ${wageSum} BTC 입니다.\n\n${memberMessage}`
+      `**[${companyName}]**의 직원명단입니다. 총 급여는 **${wageSum} BTC** 입니다.\n\n${memberMessage}`
     );
   }
 

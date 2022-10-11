@@ -3,46 +3,46 @@ const { SlashCommandBuilder } = require("discord.js");
 const pingCommandBuilder = new SlashCommandBuilder()
   .setName("급여")
   .setDescription("급여분배")
-  .addSubcommand((subcommand) =>
-    subcommand
-      .setName("직원추가")
-      .setDescription("사업체의 직원을 추가합니다.")
-      .addStringOption((option) =>
-        option
-          .setName("company")
-          .setDescription(`enter company name`)
-          .setRequired(true)
-      )
-      .addUserOption((option) =>
-        option.setName("user").setDescription(`enter user`).setRequired(true)
-      )
-      .addStringOption((option) =>
-        option
-          .setName("nick")
-          .setDescription(`enter user's nick`)
-          .setRequired(true)
-      )
-      .addStringOption((option) =>
-        option
-          .setName("level")
-          .setDescription(`enter user's level`)
-          .setRequired(true)
-          .addChoices(
-            {
-              name: "사장",
-              value: "c",
-            },
-            {
-              name: "임원",
-              value: "e",
-            },
-            {
-              name: "직원",
-              value: "s",
-            }
-          )
-      )
-  )
+  // .addSubcommand((subcommand) =>
+  //   subcommand
+  //     .setName("직원추가")
+  //     .setDescription("사업체의 직원을 추가합니다.")
+  //     .addStringOption((option) =>
+  //       option
+  //         .setName("company")
+  //         .setDescription(`enter company name`)
+  //         .setRequired(true)
+  //     )
+  //     .addUserOption((option) =>
+  //       option.setName("user").setDescription(`enter user`).setRequired(true)
+  //     )
+  //     .addStringOption((option) =>
+  //       option
+  //         .setName("nick")
+  //         .setDescription(`enter user's nick`)
+  //         .setRequired(true)
+  //     )
+  //     .addStringOption((option) =>
+  //       option
+  //         .setName("level")
+  //         .setDescription(`enter user's level`)
+  //         .setRequired(true)
+  //         .addChoices(
+  //           {
+  //             name: "사장",
+  //             value: "c",
+  //           },
+  //           {
+  //             name: "임원",
+  //             value: "e",
+  //           },
+  //           {
+  //             name: "직원",
+  //             value: "s",
+  //           }
+  //         )
+  //     )
+  // )
   .addSubcommand((subcommand) =>
     subcommand
       .setName("직원조회")
@@ -64,6 +64,11 @@ const pingCommandBuilder = new SlashCommandBuilder()
           .setDescription(`enter company name`)
           .setRequired(true)
       )
+      .addUserOption((o) => {
+        o.setName("customer")
+          .setDescription(`select customer`)
+          .setRequired(true);
+      })
   );
 
 module.exports = pingCommandBuilder;

@@ -14,6 +14,7 @@ async function distribute(interaction) {
     return;
   }
   const companyName = interaction.options.getString("company");
+  const customer = interaction.options.getUser("customer");
 
   await interaction.deferReply();
 
@@ -38,7 +39,7 @@ async function distribute(interaction) {
       } else wage = wage3;
       const wageSum = getWageSum(com, wage);
       try {
-        await bankManager.depositBTC(ownerId, String(wageSum));
+        await bankManager.depositBTC(customer.id, String(wageSum));
         await interaction.editReply(
           `벅크셔해서웨이에 ${wageSum}BTC이 입금되었습니다.\n`
         );
@@ -71,8 +72,9 @@ async function distribute(interaction) {
         if (member.level == "c") {
           const weeklyWage = wage[member.level] * 7;
           try {
-            await bankManager.withdrawBTC(member.userId, String(weeklyWage));
-            message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+            // await bankManager.withdrawBTC(member.userId, String(weeklyWage));
+            // message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+            message += `<@${member.userId}>의 직급이 사장이므로 급여를 분배하지 않습니다.`;
           } catch (e) {
             console.log(e);
           }
