@@ -31,7 +31,7 @@ async function showMember(interaction) {
         if (mem.level !== "c") memCnt++;
       }
       let wage = {};
-      if (memCnt == 1) {
+      if (memCnt == 0) {
         wage = wage1;
       } else if (memCnt < 4) {
         wage = wage2;
