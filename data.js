@@ -335,9 +335,9 @@ const companies = [
     companyName: "캔바디바",
     members: [
       { userId: userData.tinley, level: "c" },
-      { userId: userData.reho, level: "e" }, //레호
-      { userId: userData.meira, level: "s" }, //메이라
-      { userId: userData.clova, level: "s" }, //클로바
+      { userId: userData.reho, level: "s" }, //레호
+      { userId: userData.meira, level: "e" }, //메이라
+      { userId: userData.clova, level: "e" }, //클로바
       { userId: userData.dudung, level: "s" }, //두둥
       { userId: userData.hongkyung, level: "s" },
     ],
