@@ -81,7 +81,7 @@ async function distribute(interaction) {
           try {
             // await bankManager.withdrawBTC(member.userId, String(weeklyWage));
             // message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
-            message += `<@${member.userId}>의 직급이 사장이므로 급여를 분배하지 않습니다.`;
+            message += `<@${member.userId}>의 직급이 사장이므로 급여를 분배하지 않습니다.\n`;
           } catch (e) {
             console.log(e);
           }
