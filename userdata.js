@@ -66,6 +66,10 @@ const userData = {
   nalrari: "981758374620303420",
   michellemarine: "880660824165842984",
   iliruda: "793086503403520011",
+  zeeto: "405939865608257546",
+  bugmo: "831502410207592489",
+  lunalena: "908212554524930129",
+  steventheship: "955146345822425159",
 };
 
 module.exports = userData;

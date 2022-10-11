@@ -360,9 +360,19 @@ const companies = [
     ],
   },
   {
-    // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    // 벅송국
+    companyName: "벅송국",
+    members: [
+      { userId: userData.pazzomi, level: "c" },
+      { userId: userData.zeeto, level: "e" },
+      { userId: userData.tomo, level: "e" },
+      { userId: userData.iliruda, level: "s" },
+      { userId: userData.bugmo, level: "e" },
+      { userId: userData.lunalena, level: "s" },
+      { userId: userData.woljo, level: "s" },
+      { userId: userData.loopy, level: "s" },
+      { userId: userData.steventheship, level: "s" },
+    ],
   },
   {
     // 양식
