@@ -375,6 +375,121 @@ const companies = [
     ],
   },
   {
+    // 힐링하우스
+    companyName: "힐링하우스",
+    members: [
+      { userId: userData.ludikkami, level: "c" },
+      { userId: userData.lua, level: "c" },
+      { userId: userData.nalrari, level: "e" },
+      { userId: userData.michellemarine, level: "s" },
+      { userId: userData.hongkyung, level: "s" },
+      { userId: userData.reho, level: "s" },
+    ],
+  },
+  {
+    // 카멜레옹
+    companyName: "카멜레옹",
+    members: [
+      { userId: userData.reho, level: "c" },
+      { userId: userData.lua, level: "e" },
+      { userId: userData.michellemarine, level: "e" },
+      { userId: userData.nalrari, level: "e" },
+      { userId: userData.iliruda, level: "s" },
+      { userId: userData.hongkyung, level: "s" },
+      { userId: userData.dudung, level: "s" },
+    ],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
+    // 양식
+    companyName: "사업체 이름",
+    members: [{ userId: userData.pomo, level: "c" }],
+  },
+  {
     // 양식
     companyName: "사업체 이름",
     members: [{ userId: userData.pomo, level: "c" }],

@@ -70,6 +70,7 @@ const userData = {
   bugmo: "831502410207592489",
   lunalena: "908212554524930129",
   steventheship: "955146345822425159",
+  ludikkami: "972725786538803291",
 };
 
 module.exports = userData;
