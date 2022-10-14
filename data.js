@@ -401,8 +401,15 @@ const companies = [
   },
   {
     // 양식
-    companyName: "사업체 이름",
-    members: [{ userId: userData.pomo, level: "c" }],
+    companyName: "EB픽셀학원",
+    members: [
+      { userId: userData.eb, level: "c" },
+      { userId: userData.kumamo, level: "e" },
+      { userId: userData.sze, level: "s" },
+      { userId: userData.gigi, level: "s" },
+      { userId: userData.pazzomi, level: "s" },
+      { userId: userData.sangwoo, level: "s" },
+    ],
   },
   {
     // 양식

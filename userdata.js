@@ -71,6 +71,7 @@ const userData = {
   lunalena: "908212554524930129",
   steventheship: "955146345822425159",
   ludikkami: "972725786538803291",
+  eb: "611292856824365068",
 };
 
 module.exports = userData;
