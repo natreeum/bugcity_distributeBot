@@ -72,6 +72,9 @@ const userData = {
   steventheship: "955146345822425159",
   ludikkami: "972725786538803291",
   eb: "611292856824365068",
+  luckydouble: "400209005407895553",
+  kkom: "432447600273391616",
+  valeria: "950318563086958592",
 };
 
 module.exports = userData;
