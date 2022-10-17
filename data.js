@@ -457,8 +457,14 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '뽀롱스튜디오',
+    members: [
+      { userId: userData.pporong, level: 'c' },
+      { userId: userData.urban_victory, level: 'e' },
+      { userId: userData.metaluca, level: 's' },
+      { userId: userData.mamamumu, level: 's' },
+      { userId: userData.enovationera, level: 's' },
+    ],
   },
   {
     // 양식
