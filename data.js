@@ -257,7 +257,7 @@ const companies = [
       { userId: userData.syuyom, level: 'e' },
       { userId: userData.aniemare, level: 'e' },
       { userId: userData.kumamon, level: 'e' },
-      { userId: userData.claire, level: 'e' },
+      { userId: userData.cloe, level: 'e' },
     ],
   },
   {
@@ -294,7 +294,7 @@ const companies = [
       { userId: userData.aniemare, level: 'e' },
       { userId: userData.syuyom, level: 'e' },
       { userId: userData.kumamon, level: 'e' },
-      { userId: userData.claire, level: 'e' },
+      { userId: userData.cloe, level: 'e' },
     ],
   },
   {
