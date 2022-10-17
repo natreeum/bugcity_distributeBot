@@ -312,14 +312,15 @@ const companies = [
     ],
   },
   {
-    // 늘보기획
-    companyName: '늘보기획',
+    //도장샵
+    companyName: '늘보기획도장샵',
     members: [
       { userId: userData.mamamumu, level: 'c' },
       { userId: userData.metaluca, level: 'c' },
       { userId: userData.aaajaeoh, level: 'e' },
       { userId: userData.cuisinerabbit, level: 's' },
       { userId: userData.misolatte, level: 's' },
+      { userId: userData.enovationera, level: 's' },
     ],
   },
   {
