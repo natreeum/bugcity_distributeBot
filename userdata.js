@@ -79,6 +79,7 @@ const userData = {
   utja: '989498492873506846',
   jia: '968681101436538911',
   caessaem: '939303086311219221',
+  claire: '938226099224186881',
 };
 
 module.exports = userData;

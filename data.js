@@ -257,11 +257,12 @@ const companies = [
       { userId: userData.syuyom, level: 'e' },
       { userId: userData.aniemare, level: 'e' },
       { userId: userData.kumamon, level: 'e' },
+      { userId: userData.claire, level: 'e' },
     ],
   },
   {
-    // 개지리는명함
-    companyName: '개지리는명함',
+    // 간지명함
+    companyName: '간지명함',
     members: [
       { userId: userData.chobom, level: 'c' },
       { userId: userData.coco, level: 'c' },
@@ -280,6 +281,8 @@ const companies = [
       { userId: userData.tinley, level: 'c' },
       { userId: userData.samko, level: 'e' },
       { userId: userData.kumamo, level: 'e' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
     ],
   },
   {
