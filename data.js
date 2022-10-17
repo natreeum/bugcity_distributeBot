@@ -442,9 +442,18 @@ const companies = [
     ],
   },
   {
-    // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    // 벅켓몬
+    companyName: '벅켓몬',
+    members: [
+      { userId: userData.syuyom, level: 'c' },
+      { userId: userData.luckydouble, level: 'c' },
+      { userId: userData.kumamon, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
+      { userId: userData.cloe, level: 's' },
+      { userId: userData.tinley, level: 's' },
+      { userId: userData.kkom, level: 's' },
+      { userId: userData.nimporte, level: 's' },
+    ],
   },
   {
     // 양식
