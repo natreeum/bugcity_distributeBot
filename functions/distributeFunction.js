@@ -55,6 +55,16 @@ async function distribute(interaction) {
       //투귀단 로직 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
       if (com.companyName === '투귀단') {
         wageSum = getWageSum(com, wage_t);
+        message = '투귀단 분배를 시작합니다.\n\n';
+        try {
+          await bankManager.depositBTC(customer.id, String(wageSum));
+          await interaction.editReply(
+            `벅크셔해서웨이에 ${wageSum}BTC이 입금되었습니다.\n`
+          );
+        } catch (e) {
+          console.log(e);
+          return;
+        }
         for (let member of com.members) {
           let memberCnt = com.members.length;
           const weeklyWage = Math.floor(wageSum / memberCnt);
