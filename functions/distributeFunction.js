@@ -21,8 +21,8 @@ async function distribute(interaction) {
     );
     return;
   }
-  const companyName = interaction.options.getString("company");
-  const customer = interaction.options.getUser("customer");
+  const companyName = interaction.options.getString('company');
+  const customer = interaction.options.getUser('customer');
 
   await interaction.deferReply();
 
@@ -36,13 +36,13 @@ async function distribute(interaction) {
   }
 
   //분배 시작
-  let message = "해당 이름의 사업체가 존재하지 않습니다.";
+  let message = '해당 이름의 사업체가 존재하지 않습니다.';
   for (let com of companies) {
     if (com.companyName == companyName) {
       //count Member
       let memCnt = 0;
       for (let mem of com.members) {
-        if (mem.level !== "c") memCnt++;
+        if (mem.level !== 'c') memCnt++;
       }
       let wage = {};
       if (memCnt == 0) {
@@ -51,23 +51,9 @@ async function distribute(interaction) {
         wage = wage2;
       } else wage = wage3;
 
-      const wageSum = getWageSum(com, wage);
-      try {
-        await bankManager.depositBTC(customer.id, String(wageSum));
-        await interaction.editReply(
-          `벅크셔해서웨이에 ${wageSum}BTC이 입금되었습니다.\n`
-        );
-      } catch (e) {
-        console.log(e);
-        return;
-      }
-      message = ``;
-      await interaction.followUp(
-        `__${com.companyName}__ 사업체의 급여분배를 시작합니다.\n`
-      );
-
+      let wageSum = getWageSum(com, wage);
       //투귀단 로직 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-      if (com.companyName === "투귀단") {
+      if (com.companyName === '투귀단') {
         wageSum = getWageSum(com, wage_t);
         for (let member of com.members) {
           let memberCnt = com.members.length;
@@ -83,9 +69,22 @@ async function distribute(interaction) {
         return;
       }
       //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      try {
+        await bankManager.depositBTC(customer.id, String(wageSum));
+        await interaction.editReply(
+          `벅크셔해서웨이에 ${wageSum}BTC이 입금되었습니다.\n`
+        );
+      } catch (e) {
+        console.log(e);
+        return;
+      }
+      message = ``;
+      await interaction.followUp(
+        `__${com.companyName}__ 사업체의 급여분배를 시작합니다.\n`
+      );
 
       for (let member of com.members) {
-        if (member.level == "c") {
+        if (member.level == 'c') {
           const weeklyWage = wage[member.level] * 7;
           try {
             // await bankManager.withdrawBTC(member.userId, String(weeklyWage));
@@ -97,7 +96,7 @@ async function distribute(interaction) {
         }
       }
       for (let member of com.members) {
-        if (member.level == "e") {
+        if (member.level == 'e') {
           const weeklyWage = wage[member.level] * 7;
           try {
             await bankManager.withdrawBTC(member.userId, String(weeklyWage));
@@ -108,7 +107,7 @@ async function distribute(interaction) {
         }
       }
       for (let member of com.members) {
-        if (member.level == "s") {
+        if (member.level == 's') {
           const weeklyWage = wage[member.level] * 7;
           try {
             await bankManager.withdrawBTC(member.userId, String(weeklyWage));
@@ -119,7 +118,7 @@ async function distribute(interaction) {
         }
       }
       for (let member of com.members) {
-        if (member.level == "v") {
+        if (member.level == 'v') {
           const weeklyWage = wage[member.level] * 7;
           try {
             message += `<@${member.userId}> 휴무상태로 주급이 분배되지않았습니다.`;
