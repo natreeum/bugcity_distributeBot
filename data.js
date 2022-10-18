@@ -233,10 +233,11 @@ const companies = [
     companyName: '요술옷장',
     members: [
       { userId: userData.nuri, level: 'c' },
-      { userId: userData.jjoro, level: 'e' },
+      { userId: userData.lua, level: 'e' },
       { userId: userData.pomo, level: 'e' },
       { userId: userData.ddpson, level: 's' },
       { userId: userData.chobom, level: 's' },
+      { userId: userData.jjoro, level: 's' },
       { userId: userData.sangwoo, level: 'v' },
     ],
   },
