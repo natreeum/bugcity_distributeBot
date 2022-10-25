@@ -93,7 +93,7 @@ const companies = [
     ],
   },
   {
-    // 인생벅전
+    // 인생벅전 / 더비벅타즈 / 벅트벅튼 / 벅스베가스 / 벅풍선
     companyName: '인생벅전',
     members: [
       { userId: userData.ggoma, level: 'c' },
@@ -469,8 +469,13 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '개쎈샵',
+    members: [
+      { userId: userData.kumamo, level: 'c' },
+      { userId: userData.nuri, level: 'e' },
+      { userId: userData.cloe, level: 's' },
+      { userId: userData.chobom, level: 's' },
+    ],
   },
   {
     // 양식
