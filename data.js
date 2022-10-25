@@ -233,12 +233,12 @@ const companies = [
     companyName: '요술옷장',
     members: [
       { userId: userData.nuri, level: 'c' },
-      { userId: userData.lua, level: 'e' },
+      { userId: userData.chobom, level: 'e' },
       { userId: userData.pomo, level: 'e' },
       { userId: userData.ddpson, level: 's' },
-      { userId: userData.chobom, level: 's' },
+      { userId: userData.lua, level: 's' },
       { userId: userData.jjoro, level: 's' },
-      { userId: userData.sangwoo, level: 'v' },
+      // { userId: userData.sangwoo, level: 'v' },
     ],
   },
   {
@@ -364,6 +364,8 @@ const companies = [
       { userId: userData.hongkyung, level: 's' },
       { userId: userData.reho, level: 's' },
       { userId: userData.iliruda, level: 's' },
+      { userId: userData.ella, level: 's' },
+      { userId: userData.clova, level: 's' },
     ],
   },
   {
