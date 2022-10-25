@@ -481,13 +481,33 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: 'EB픽셀학원',
+    members: [
+      { userId: userData.eb, level: 'c' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.sze, level: 's' },
+      { userId: userData.gigi, level: 's' },
+      { userId: userData.pazzomi, level: 's' },
+      { userId: userData.sangwoo, level: 's' },
+    ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '럭켓몬',
+    members: [
+      { userId: userData.syuyom, level: 'c' },
+      { userId: userData.luckydouble, level: 'c' },
+      { userId: userData.kumamon, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.nimporte, level: 's' },
+      { userId: userData.cloe, level: 's' },
+      { userId: userData.tinley, level: 's' },
+      { userId: userData.kkom, level: 's' },
+      { userId: userData.pomo, level: 's' },
+      { userId: userData.shoong, level: 's' },
+      { userId: userData.jelly, level: 's' },
+    ],
   },
   {
     // 양식

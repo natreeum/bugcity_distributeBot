@@ -82,6 +82,8 @@ const userData = {
   claire: '938226099224186881',
   nimporte: '960749284872048710',
   ella: '963598138621431829',
+  shoong: '1022135623072612444',
+  jelly: '403557359332360202',
 };
 
 module.exports = userData;
