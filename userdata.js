@@ -86,6 +86,8 @@ const userData = {
   jelly: '403557359332360202',
   uncover: '203160315666366474',
   mokjo: '901812980944097300',
+  marieinara: '949799278149267568',
+  andrew: '897802283302150164',
 };
 
 module.exports = userData;

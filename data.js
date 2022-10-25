@@ -501,8 +501,18 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '동블리',
+    members: [
+      { userId: userData.nobiguri, level: 'c' },
+      { userId: userData.ddpson, level: 'e' },
+      { userId: userData.chobom, level: 'e' },
+      { userId: userData.samko, level: 'e' },
+      { userId: userData.hongkyung, level: 's' },
+      { userId: userData.cuisinerabbit, level: 's' },
+      { userId: userData.positivecoin, level: 's' },
+      { userId: userData.marieinara, level: 's' },
+      { userId: userData.andrew, level: 's' },
+    ],
   },
   {
     // 양식
