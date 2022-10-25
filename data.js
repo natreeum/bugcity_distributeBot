@@ -314,7 +314,7 @@ const companies = [
   },
   {
     //도장샵
-    companyName: '늘보기획도장샵',
+    companyName: '늘보도장샵',
     members: [
       { userId: userData.mamamumu, level: 'c' },
       { userId: userData.metaluca, level: 'c' },
@@ -481,13 +481,14 @@ const companies = [
   },
   {
     // 양식
-    companyName: '럭켓몬',
+    companyName: '럭겟몬',
     members: [
       { userId: userData.syuyom, level: 'c' },
       { userId: userData.luckydouble, level: 'c' },
       { userId: userData.kumamon, level: 'e' },
       { userId: userData.michellemarine, level: 'e' },
       { userId: userData.lua, level: 'e' },
+      { userId: userData.uncover, level: 'e' },
       { userId: userData.nimporte, level: 's' },
       { userId: userData.cloe, level: 's' },
       { userId: userData.tinley, level: 's' },
@@ -495,6 +496,7 @@ const companies = [
       { userId: userData.pomo, level: 's' },
       { userId: userData.shoong, level: 's' },
       { userId: userData.jelly, level: 's' },
+      { userId: userData.mokjo, level: 's' },
     ],
   },
   {

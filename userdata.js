@@ -84,6 +84,8 @@ const userData = {
   ella: '963598138621431829',
   shoong: '1022135623072612444',
   jelly: '403557359332360202',
+  uncover: '203160315666366474',
+  mokjo: '901812980944097300',
 };
 
 module.exports = userData;
