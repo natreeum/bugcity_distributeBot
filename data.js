@@ -78,13 +78,13 @@ const companies = [
     companyName: '창업지원단',
     members: [
       { userId: userData.pomo, level: 'c' },
-      { userId: userData.jjoro, level: 'e' },
+      // { userId: userData.jjoro, level: 'e' },
       { userId: userData.sojim, level: 'v' },
       { userId: userData.fruitring, level: 's' },
       { userId: userData.gd, level: 's' },
       { userId: userData.dduck, level: 's' },
       { userId: userData.lua, level: 'e' },
-      { userId: userData.chobom, level: 's' },
+      { userId: userData.chobom, level: 'e' },
       { userId: userData.nuri, level: 'e' },
       { userId: userData.ddpson, level: 'e' },
       { userId: userData.kumamon, level: 's' },
@@ -259,6 +259,7 @@ const companies = [
       { userId: userData.aniemare, level: 'e' },
       { userId: userData.kumamon, level: 'e' },
       { userId: userData.cloe, level: 'e' },
+      { userId: userData.juin10, level: 'e' },
     ],
   },
   {
@@ -296,6 +297,7 @@ const companies = [
       { userId: userData.syuyom, level: 'e' },
       { userId: userData.kumamon, level: 'e' },
       { userId: userData.cloe, level: 'e' },
+      { userId: userData.juin10, level: 'e' },
     ],
   },
   {
