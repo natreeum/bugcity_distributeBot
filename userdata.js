@@ -89,6 +89,11 @@ const userData = {
   marieinara: '949799278149267568',
   andrew: '897802283302150164',
   diumiu: '951486267806318715',
+  minisco: '1027927438153490432',
+  bingohyejeong: '1006549356607967232',
+  j: '986850934187491328',
+  seethrough: '1022132582722322472',
+  dodochuiriri: '998933209544921192',
 };
 
 module.exports = userData;
