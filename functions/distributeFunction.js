@@ -79,6 +79,12 @@ async function distribute(interaction) {
         return;
       }
       //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+      const balance = await bankManager.getBalance(customer.id);
+      if (balance < wageSum) {
+        return await interaction.reply(
+          `<@${customer.id}> 사장님 잔고에 충분한 급여가 존재하지 않습니다.\nDAO4DAO에서 급여를 분배받았는지 확인해 주세요.`
+        );
+      }
       try {
         await bankManager.depositBTC(customer.id, String(wageSum));
         await interaction.editReply(
