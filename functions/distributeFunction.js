@@ -79,7 +79,7 @@ async function distribute(interaction) {
         return;
       }
       //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
-      const balance = await bankManager.getBalance(customer.id);
+      const balance = await bankManager.getBalance(customer.id).point.current;
       console.log(balance);
       if (balance < wageSum) {
         return await interaction.reply(
