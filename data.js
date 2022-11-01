@@ -539,6 +539,7 @@ const companies = [
       { userId: userData.kumamon, level: 's' },
       { userId: userData.michellemarine, level: 's' },
       { userId: userData.lua, level: 's' },
+      { userId: userData.uncover, level: 's' },
     ],
   },
   {
