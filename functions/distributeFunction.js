@@ -81,7 +81,7 @@ async function distribute(interaction) {
       //=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
       const balance = await bankManager.getBalance(customer.id);
       if (balance.point.current < wageSum) {
-        return await interaction.reply(
+        return await interaction.editReply(
           `<@${customer.id}> 사장님 잔고에 충분한 급여가 존재하지 않습니다.\nDAO4DAO에서 급여를 분배받았는지 확인해 주세요.`
         );
       }
