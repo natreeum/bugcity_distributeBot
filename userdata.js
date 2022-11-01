@@ -97,6 +97,7 @@ const userData = {
   ppukkaeng: '983115383366094868',
   yuchaehyang: '990792397518680124',
   seoyoung: '1034739481393233940',
+  womanpower: '992914133257297970',
 };
 
 module.exports = userData;

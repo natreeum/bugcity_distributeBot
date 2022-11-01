@@ -365,11 +365,12 @@ const companies = [
       { userId: userData.nalrari, level: 'c' },
       { userId: userData.lua, level: 'e' },
       { userId: userData.michellemarine, level: 'e' },
-      { userId: userData.hongkyung, level: 's' },
+      { userId: userData.hongkyung, level: 'e' },
       { userId: userData.reho, level: 's' },
       { userId: userData.iliruda, level: 's' },
       { userId: userData.ella, level: 's' },
       { userId: userData.clova, level: 's' },
+      { userId: userData.womanpower, level: 's' },
     ],
   },
   {
