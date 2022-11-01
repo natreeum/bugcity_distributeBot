@@ -78,7 +78,6 @@ const companies = [
     companyName: '창업지원단',
     members: [
       { userId: userData.pomo, level: 'c' },
-      // { userId: userData.jjoro, level: 'e' },
       { userId: userData.sojim, level: 'v' },
       { userId: userData.fruitring, level: 's' },
       { userId: userData.gd, level: 's' },
@@ -87,6 +86,8 @@ const companies = [
       { userId: userData.chobom, level: 'e' },
       { userId: userData.nuri, level: 'e' },
       { userId: userData.ddpson, level: 'e' },
+      { userId: userData.nalrari, level: 's' },
+      { userId: userData.ella, level: 's' },
       { userId: userData.kumamon, level: 's' },
       { userId: userData.tinley, level: 's' },
       { userId: userData.heali, level: 'e' },
