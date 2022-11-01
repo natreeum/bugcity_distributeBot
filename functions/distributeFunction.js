@@ -54,6 +54,12 @@ async function distribute(interaction) {
       let wageSum = getWageSum(com, wage);
       //투귀단 로직 =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
       if (com.companyName === '투귀단') {
+        const balance = await bankManager.getBalance(customer.id);
+        if (balance.point.current < wageSum) {
+          return await interaction.editReply(
+            `<@${customer.id}> 사장님 잔고에 충분한 급여가 존재하지 않습니다.\nDAO4DAO에서 급여를 분배받았는지 확인해 주세요.`
+          );
+        }
         wageSum = getWageSum(com, wage_t);
         message = '투귀단 분배를 시작합니다.\n\n';
         try {
