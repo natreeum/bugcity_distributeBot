@@ -94,6 +94,9 @@ const userData = {
   j: '986850934187491328',
   seethrough: '1022132582722322472',
   dodochuiriri: '998933209544921192',
+  ppukkaeng: '983115383366094868',
+  yuchaehyang: '990792397518680124',
+  seoyoung: '1034739481393233940',
 };
 
 module.exports = userData;

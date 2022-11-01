@@ -520,16 +520,17 @@ const companies = [
   },
   {
     // 양식
-    companyName: '럭겟몬코스튬샵',
+    companyName: '럭겟몬 코스튬',
     members: [
       { userId: userData.lua, level: 'c' },
-      { userId: userData.luckydouble, level: 'c' },
-      { userId: userData.michellemarine, level: 'e' },
-      { userId: userData.syuyom, level: 'e' },
-      { userId: userData.kumamon, level: 'e' },
-      { userId: userData.diumiu, level: 's' },
-      { userId: userData.nimporte, level: 's' },
-      { userId: userData.jelly, level: 's' },
+      { userId: userData.luckydouble, level: 'e' },
+      { userId: userData.nimporte, level: 'e' },
+      { userId: userData.jelly, level: 'e' },
+      { userId: userData.diumiu, level: 'e' },
+      { userId: userData.ppukkaeng, level: 's' },
+      { userId: userData.yuchaehyang, level: 's' },
+      { userId: userData.seoyoung, level: 's' },
+      { userId: userData.syuyom, level: 's' },
     ],
   },
   {
