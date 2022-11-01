@@ -88,6 +88,7 @@ const userData = {
   mokjo: '901812980944097300',
   marieinara: '949799278149267568',
   andrew: '897802283302150164',
+  diumiu: '951486267806318715',
 };
 
 module.exports = userData;
