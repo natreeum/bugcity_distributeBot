@@ -98,6 +98,8 @@ const userData = {
   yuchaehyang: '990792397518680124',
   seoyoung: '1034739481393233940',
   womanpower: '992914133257297970',
+  zerothreetwo: '970712038693273701',
+  donggga: '742711076780507258',
 };
 
 module.exports = userData;

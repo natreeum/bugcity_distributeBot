@@ -548,8 +548,11 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '1분벅트',
+    members: [
+      { userId: userData.zerothreetwo, level: 'c' },
+      { userId: userData.donggga, level: 's' },
+    ],
   },
   {
     // 양식
