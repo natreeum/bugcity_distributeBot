@@ -305,11 +305,10 @@ const companies = [
     members: [
       { userId: userData.urban_victory, level: 'c' },
       { userId: userData.aaajaeoh, level: 'e' },
-      { userId: userData.pporong, level: 'e' },
       { userId: userData.metaluca, level: 's' },
       { userId: userData.mamamumu, level: 's' },
-      { userId: userData.cuisinerabbit, level: 's' },
-      { userId: userData.misolatte, level: 's' },
+      { userId: userData.cuisinerabbit, level: 'e' },
+      { userId: userData.misolatte, level: 'e' },
       { userId: userData.enovationera, level: 's' },
     ],
   },
