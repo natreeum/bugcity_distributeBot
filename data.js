@@ -360,8 +360,8 @@ const companies = [
     companyName: '날라리발까락',
     members: [
       { userId: userData.nalrari, level: 'c' },
-      { userId: userData.lua, level: 'v' },
-      { userId: userData.michellemarine, level: 'v' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
       { userId: userData.hongkyung, level: 'e' },
       { userId: userData.reho, level: 's' },
       { userId: userData.iliruda, level: 's' },
