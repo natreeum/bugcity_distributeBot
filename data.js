@@ -409,6 +409,9 @@ const companies = [
       { userId: userData.iliruda, level: 's' },
       { userId: userData.hongkyung, level: 's' },
       { userId: userData.dudung, level: 's' },
+      { userId: userData.clova, level: 's' },
+      { userId: userData.ella, level: 's' },
+      { userId: userData.syeoni, level: 's' }, // 셔니
     ],
   },
   {
@@ -558,8 +561,24 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '블링빌웹3학원',
+    members: [
+      { userId: userData.promania, level: 'c' },
+      { userId: userData.caessaem, level: 'c' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.polo, level: 'e' },
+      { userId: userData.nanggu, level: 'e' },
+      { userId: userData.jia2, level: 'e' },
+      { userId: userData.utja, level: 'e' },
+      { userId: userData.reho, level: 's' },
+      { userId: userData.nalrari, level: 's' },
+      { userId: userData.lunalena, level: 's' },
+      { userId: userData.sarangni, level: 's' },
+      { userId: userData.hongkyung, level: 's' },
+      { userId: userData.ludikkami, level: 's' },
+      { userId: userData.clova, level: 's' },
+      { userId: userData.ella, level: 's' },
+    ],
   },
   {
     // 양식
