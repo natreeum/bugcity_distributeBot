@@ -568,7 +568,7 @@ const companies = [
       { userId: userData.lua, level: 'e' },
       { userId: userData.polo, level: 'e' },
       { userId: userData.nanggu, level: 'e' },
-      { userId: userData.jia2, level: 'e' },
+      { userId: userData.jia, level: 'e' },
       { userId: userData.utja, level: 'e' },
       { userId: userData.reho, level: 's' },
       { userId: userData.nalrari, level: 's' },
