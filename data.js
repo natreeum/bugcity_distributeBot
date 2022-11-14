@@ -272,6 +272,7 @@ const companies = [
       { userId: userData.nuri, level: 'e' },
       { userId: userData.tomo, level: 'e' },
       { userId: userData.jinsr, level: 'e' },
+      { userId: userData.rescall, level: 'e' },
     ],
   },
   {
