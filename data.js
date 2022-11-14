@@ -563,6 +563,7 @@ const companies = [
     // 양식
     companyName: '블링빌웹3학원',
     members: [
+      { userId: userData.michellemarine, level: 'c' },
       { userId: userData.promania, level: 'c' },
       { userId: userData.caessaem, level: 'c' },
       { userId: userData.lua, level: 'e' },
