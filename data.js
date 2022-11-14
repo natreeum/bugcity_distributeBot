@@ -320,6 +320,7 @@ const companies = [
       { userId: userData.mamamumu, level: 'c' },
       { userId: userData.metaluca, level: 'c' },
       { userId: userData.aaajaeoh, level: 'e' },
+      { userId: userData.bugdisha, level: 'e' },
       { userId: userData.cuisinerabbit, level: 's' },
       { userId: userData.misolatte, level: 's' },
       { userId: userData.enovationera, level: 's' },
