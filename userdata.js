@@ -106,6 +106,9 @@ const userData = {
   rescall: '1013132278295187466',
   sarangni: '983114079751270430',
   syeoni: '964165473036042280',
+  nadame: '983239270871470140',
+  thankalways: '1011493546731241543',
+  lifero: '1022489441853526086',
 };
 
 module.exports = userData;
