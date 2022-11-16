@@ -602,8 +602,15 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '임금님귀는당나귀귀',
+    members: [
+      { userId: userData.meira, level: 'c' },
+      { userId: userData.yoronge, level: 'e' },
+      { userId: userData.nanggu, level: 'e' },
+      { userId: userData.j, level: 's' },
+      { userId: userData.lifero, level: 's' },
+      { userId: userData.juin10, level: 's' },
+    ],
   },
   {
     // 양식

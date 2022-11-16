@@ -110,6 +110,7 @@ const userData = {
   thankalways: '1011493546731241543',
   lifero: '1022489441853526086',
   bugdisha: '958178893561491456',
+  yoronge: '1022132577953398804',
 };
 
 module.exports = userData;
