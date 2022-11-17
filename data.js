@@ -519,6 +519,7 @@ const companies = [
       { userId: userData.positivecoin, level: 's' },
       { userId: userData.marieinara, level: 's' },
       { userId: userData.andrew, level: 's' },
+      { userId: userData.sunny, level: 's' },
     ],
   },
   {
