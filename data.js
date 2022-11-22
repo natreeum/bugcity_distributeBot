@@ -192,7 +192,7 @@ const companies = [
   },
   {
     // 사냥터
-    companyName: '사냥물품거래소',
+    companyName: '버람의나라',
     members: [
       { userId: userData.juin10, level: 'c' },
       { userId: userData.sis, level: 'e' },
