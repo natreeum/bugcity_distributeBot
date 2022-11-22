@@ -614,10 +614,10 @@ const companies = [
     companyName: '벅찰서',
     members: [
       { userId: userData.pazzomi, level: 'c' },
-      { userId: userData.pepe, level: 'c' },
-      { userId: userData.usha, level: 'c' },
-      { userId: userData.jasingamman, level: 'c' },
-      { userId: userData.tomo, level: 'c' },
+      { userId: userData.pepe, level: 's' },
+      { userId: userData.usha, level: 's' },
+      { userId: userData.jasingamman, level: 's' },
+      { userId: userData.tomo, level: 's' },
     ],
   },
   {
