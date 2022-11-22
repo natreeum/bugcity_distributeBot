@@ -607,10 +607,10 @@ const companies = [
     members: [
       { userId: userData.meira, level: 'c' },
       { userId: userData.yoronge, level: 'e' },
-      { userId: userData.nanggu, level: 'e' },
+      { userId: userData.nanggu, level: 'v' },
       { userId: userData.j, level: 's' },
       { userId: userData.lifero, level: 's' },
-      { userId: userData.juin10, level: 's' },
+      { userId: userData.juin10, level: 'e' },
     ],
   },
   {
