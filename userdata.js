@@ -111,6 +111,9 @@ const userData = {
   lifero: '1022489441853526086',
   bugdisha: '958178893561491456',
   yoronge: '1022132577953398804',
+  pepe: '840625686394044436',
+  jasingamman: '355366976316637187',
+  usha: '842328573150625792',
 };
 
 module.exports = userData;
