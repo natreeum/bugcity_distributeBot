@@ -566,7 +566,7 @@ const companies = [
     companyName: '블링빌웹3학원',
     members: [
       { userId: userData.michellemarine, level: 'c' },
-      { userId: userData.promania, level: 'c' },
+      { userId: userData.daengdaeng, level: 'c' },
       { userId: userData.caessaem, level: 'c' },
       { userId: userData.lua, level: 'e' },
       { userId: userData.polo, level: 'e' },
@@ -621,8 +621,30 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '벅공대',
+    members: [
+      { userId: userData.sunny, level: 'c' },
+      { userId: userData.chobom, level: 'c' },
+      { userId: userData.hongkyung, level: 'e' },
+      { userId: userData.rescall, level: 'e' },
+      { userId: userData.kkom, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
+      { userId: userData.syuyom, level: 'e' },
+      { userId: userData.pazzomi, level: 'e' },
+      { userId: userData.donggga, level: 'e' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.pomo, level: 'e' },
+      { userId: userData.daengdaeng, level: 'e' },
+      { userId: userData.bo, level: 'e' },
+      { userId: userData.dk, level: 'e' },
+      { userId: userData.nuri, level: 'e' },
+      { userId: userData.kumamon, level: 'e' },
+      { userId: userData.heali, level: 'e' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.samko, level: 'e' },
+      { userId: userData.neo, level: 'e' },
+      { userId: userData.luckydouble, level: 'e' },
+    ],
   },
   {
     // 양식
