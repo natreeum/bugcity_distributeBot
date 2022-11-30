@@ -251,7 +251,7 @@ const companies = [
   },
   {
     // 초준동물농장
-    companyName: '초준동물농장',
+    companyName: '벅펫친구들',
     members: [
       { userId: userData.chobom, level: 'c' },
       { userId: userData.ddpson, level: 'c' },
@@ -260,6 +260,9 @@ const companies = [
       { userId: userData.kumamon, level: 'e' },
       { userId: userData.cloe, level: 'e' },
       { userId: userData.juin10, level: 'e' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.donggga, level: 'e' },
+      { userId: userData.rescall, level: 'e' },
     ],
   },
   {
@@ -290,7 +293,7 @@ const companies = [
   },
   {
     // 애니멀스튜디오
-    companyName: '애니멀스튜디오',
+    companyName: '벅펫TV',
     members: [
       { userId: userData.chobom, level: 'c' },
       { userId: userData.ddpson, level: 'c' },
@@ -299,6 +302,25 @@ const companies = [
       { userId: userData.kumamon, level: 'e' },
       { userId: userData.cloe, level: 'e' },
       { userId: userData.juin10, level: 'e' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.donggga, level: 'e' },
+      { userId: userData.rescall, level: 'e' },
+    ],
+  },
+  {
+    // 애니멀스튜디오
+    companyName: '벅펫스튜디오',
+    members: [
+      { userId: userData.chobom, level: 'c' },
+      { userId: userData.ddpson, level: 'c' },
+      { userId: userData.aniemare, level: 'e' },
+      { userId: userData.syuyom, level: 'e' },
+      { userId: userData.kumamon, level: 'e' },
+      { userId: userData.cloe, level: 'e' },
+      { userId: userData.juin10, level: 'e' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.donggga, level: 'e' },
+      { userId: userData.rescall, level: 'e' },
     ],
   },
   {
