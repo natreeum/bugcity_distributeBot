@@ -377,7 +377,6 @@ const companies = [
       { userId: userData.bingohyejeong, level: 'e' }, //클로바
       { userId: userData.meira, level: 's' }, //두둥
       { userId: userData.seethrough, level: 'e' },
-      { userId: userData.dodochuiriri, level: 's' },
       { userId: userData.nadame, level: 's' },
       { userId: userData.thankalways, level: 's' },
       { userId: userData.lifero, level: 's' },
@@ -395,7 +394,7 @@ const companies = [
       { userId: userData.iliruda, level: 's' },
       { userId: userData.ella, level: 's' },
       { userId: userData.clova, level: 's' },
-      { userId: userData.womanpower, level: 's' },
+      { userId: userData.womanpower, level: 'v' },
     ],
   },
   {
