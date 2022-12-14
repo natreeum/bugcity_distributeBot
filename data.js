@@ -670,8 +670,12 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '소리책빵',
+    members: [
+      { userId: userData.minisco, level: 'c' },
+      { userId: userData.tinley, level: 's' },
+      { userId: userData.meira, level: 's' },
+    ],
   },
   {
     // 양식
