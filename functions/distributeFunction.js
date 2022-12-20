@@ -143,7 +143,7 @@ async function distribute(interaction) {
         if (member.level == 'v') {
           const weeklyWage = wage[member.level] * 7;
           try {
-            message += `<@${member.userId}> 휴무상태로 주급이 분배되지않았습니다.`;
+            message += `<@${member.userId}> 휴무상태로 주급이 분배되지않았습니다.\n`;
           } catch (e) {
             console.log(e);
           }
