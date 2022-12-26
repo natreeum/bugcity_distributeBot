@@ -116,6 +116,8 @@ const userData = {
   usha: '842328573150625792',
   bo: '450066928845717539',
   neo: '627328175042592769',
+  naldasooni: '1046761842875314306',
+  buggoori: '383820744582234113',
 };
 
 module.exports = userData;

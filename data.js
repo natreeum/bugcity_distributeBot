@@ -677,8 +677,10 @@ const companies = [
     companyName: '소리책빵',
     members: [
       { userId: userData.minisco, level: 'c' },
-      { userId: userData.tinley, level: 's' },
-      { userId: userData.meira, level: 's' },
+      { userId: userData.tinley, level: 'e' },
+      { userId: userData.meira, level: 'e' },
+      { userId: userData.naldasooni, level: 's' },
+      { userId: userData.buggoori, level: 's' },
     ],
   },
   {
