@@ -406,6 +406,10 @@ const companies = [
       { userId: userData.lunalena, level: 's' },
       { userId: userData.iliruda, level: 's' },
       { userId: userData.tomo, level: 's' },
+      { userId: userData.luckydouble, level: 's' },
+      { userId: userData.mokjo, level: 's' },
+      { userId: userData.kumamon, level: 's' },
+      { userId: userData.uncover, level: 's' },
     ],
   },
   {
