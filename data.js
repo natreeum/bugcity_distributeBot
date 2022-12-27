@@ -271,7 +271,6 @@ const companies = [
     members: [
       { userId: userData.chobom, level: 'c' },
       { userId: userData.coco, level: 'c' },
-      { userId: userData.kumamo, level: 'e' },
       { userId: userData.nuri, level: 'e' },
       { userId: userData.tomo, level: 'e' },
       { userId: userData.jinsr, level: 'e' },
