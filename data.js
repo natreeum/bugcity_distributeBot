@@ -393,7 +393,7 @@ const companies = [
       { userId: userData.iliruda, level: 's' },
       { userId: userData.ella, level: 's' },
       { userId: userData.clova, level: 's' },
-      { userId: userData.womanpower, level: 'v' },
+      { userId: userData.womanpower, level: 's' },
     ],
   },
   {
