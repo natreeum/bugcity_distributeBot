@@ -436,7 +436,7 @@ const companies = [
       { userId: userData.dudung, level: 's' },
       { userId: userData.clova, level: 's' },
       { userId: userData.ella, level: 's' },
-      { userId: userData.syeoni, level: 's' }, // 셔니
+      { userId: userData.syeoni, level: 'e' }, // 셔니
     ],
   },
   {
