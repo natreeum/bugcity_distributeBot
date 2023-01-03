@@ -286,7 +286,7 @@ const companies = [
       { userId: userData.tinley, level: 'c' },
       { userId: userData.samko, level: 'e' },
       { userId: userData.kumamo, level: 'e' },
-      { userId: userData.lua, level: 'e' },
+      { userId: userData.lua, level: 'v' },
       { userId: userData.michellemarine, level: 'e' },
     ],
   },
