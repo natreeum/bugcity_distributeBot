@@ -684,8 +684,15 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
-    members: [{ userId: userData.pomo, level: 'c' }],
+    companyName: '약꾹',
+    members: [
+      { userId: userData.lua, level: 'c' },
+      { userId: userData.maksae, level: 'c' },
+      { userId: userData.uncover, level: 'c' },
+      { userId: userData.ella, level: 'c' },
+      { userId: userData.womanpower, level: 'c' },
+      { userId: userData.ludikkami, level: 'c' },
+    ],
   },
 ];
 

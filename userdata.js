@@ -118,6 +118,7 @@ const userData = {
   neo: '627328175042592769',
   naldasooni: '1046761842875314306',
   buggoori: '383820744582234113',
+  maksae: '1047088031972196412',
 };
 
 module.exports = userData;
