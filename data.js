@@ -688,10 +688,10 @@ const companies = [
     members: [
       { userId: userData.lua, level: 'c' },
       { userId: userData.maksae, level: 'c' },
-      { userId: userData.uncover, level: 'c' },
-      { userId: userData.ella, level: 'c' },
-      { userId: userData.womanpower, level: 'c' },
-      { userId: userData.ludikkami, level: 'c' },
+      { userId: userData.uncover, level: 'e' },
+      { userId: userData.ella, level: 'e' },
+      { userId: userData.womanpower, level: 's' },
+      { userId: userData.ludikkami, level: 's' },
     ],
   },
 ];
