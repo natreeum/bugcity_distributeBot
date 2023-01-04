@@ -508,8 +508,9 @@ const companies = [
       { userId: userData.eb, level: 'c' },
       { userId: userData.kumamo, level: 'e' },
       { userId: userData.sze, level: 's' },
-      { userId: userData.gigi, level: 's' },
-      { userId: userData.pazzomi, level: 's' },
+      { userId: userData.gigi, level: 'v' },
+      { userId: userData.pazzomi, level: 'v' },
+      { userId: userData.luckydouble, level: 's' },
     ],
   },
   {
