@@ -119,6 +119,7 @@ const userData = {
   naldasooni: '1046761842875314306',
   buggoori: '383820744582234113',
   maksae: '1047088031972196412',
+  bogaro: '1045675640290017350',
 };
 
 module.exports = userData;
