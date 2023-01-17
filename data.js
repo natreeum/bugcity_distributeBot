@@ -700,6 +700,287 @@ const companies = [
       { userId: userData.ludikkami, level: 's' },
     ],
   },
+  {
+    // 양식
+    companyName: '핸쓰기몰',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.haenssugi, level: 'c' },
+      { userId: userData.michellemarine, level: 'e' },
+      { userId: userData.luckydouble, level: 'e' },
+      { userId: userData.alcong, level: 's' },
+      { userId: userData.seoyoung, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
+  {
+    // 양식
+    companyName: '사업체 이름',
+    members: [
+      { userId: userData.사장, level: 'c' },
+      { userId: userData.임원, level: 'e' },
+      { userId: userData.직원, level: 's' },
+    ],
+  },
 ];
 
 module.exports = {

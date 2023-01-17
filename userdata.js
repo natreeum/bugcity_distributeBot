@@ -120,6 +120,8 @@ const userData = {
   buggoori: '383820744582234113',
   maksae: '1047088031972196412',
   bogaro: '1045675640290017350',
+  haenssugi: '969014643215462410',
+  alcong: '481811351711252499',
 };
 
 module.exports = userData;
