@@ -38,9 +38,9 @@ const staffs = [
   '1014127440831991880',
   '415907070626234406',
   '973834622746120222',
-  '247333169370628096',
-  '363301264089677825',
-  '880660824165842984',
+  '247333169370628096', // 파쫌
+  '363301264089677825', // 초봄
+  '880660824165842984', // 마리니
 ];
 
 const companies = [
@@ -237,12 +237,14 @@ const companies = [
     companyName: '요술옷장',
     members: [
       { userId: userData.nuri, level: 'c' },
-      { userId: userData.chobom, level: 'e' },
-      { userId: userData.pomo, level: 'e' },
+      { userId: userData.chobom, level: 'c' },
+      { userId: userData.jinhyeok, level: 'e' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.jinil, level: 'e' },
+      { userId: userData.huf, level: 's' },
       { userId: userData.ddpson, level: 's' },
-      { userId: userData.lua, level: 's' },
       { userId: userData.jjoro, level: 's' },
-      // { userId: userData.sangwoo, level: 'v' },
+      { userId: userData.uncover, level: 's' },
     ],
   },
   {

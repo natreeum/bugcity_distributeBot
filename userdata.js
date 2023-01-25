@@ -122,6 +122,7 @@ const userData = {
   bogaro: '1045675640290017350',
   haenssugi: '969014643215462410',
   alcong: '481811351711252499',
+  jinil: '785497856093323324',
 };
 
 module.exports = userData;
