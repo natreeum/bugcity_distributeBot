@@ -402,7 +402,7 @@ const companies = [
     companyName: '벅송국',
     members: [
       { userId: userData.pazzomi, level: 'c' },
-      { userId: userData.zeeto, level: 'e' },
+      // { userId: userData.zeeto, level: 'e' },
       { userId: userData.lunalena, level: 's' },
       { userId: userData.iliruda, level: 's' },
       { userId: userData.tomo, level: 's' },
