@@ -1,4 +1,4 @@
-const dotenv = require("dotenv");
+const dotenv = require('dotenv');
 
 dotenv.config();
 
@@ -9,4 +9,5 @@ module.exports = {
   bugcity: process.env.BUGCITY,
   api: process.env.API_ROOT,
   webhookLogsUrl: process.env.WEBHOOK_LOGS,
+  webhook2: process.env.WEBHOOK_SEC,
 };

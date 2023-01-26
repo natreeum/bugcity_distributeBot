@@ -10,9 +10,10 @@ const {
 const BankManager = require(`../bank/BankManager`);
 const bankManager = new BankManager();
 
+const { webhook2 } = require('../config');
 const { WebhookClient } = require('discord.js');
 const logWebHook = new WebhookClient({
-  url: 'https://discord.com/api/webhooks/1068137946710016050/zyeSgG2SmqMPpunxiNjlvAzZ50AWX-ygLntyV5KEQDSSsjQYRlIDZFPA3HmYmX-gR9B_',
+  url: webhook2,
 });
 async function log(text) {
   try {
