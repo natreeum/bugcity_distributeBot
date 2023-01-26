@@ -41,6 +41,8 @@ const staffs = [
   '247333169370628096', // 파쫌
   '363301264089677825', // 초봄
   '880660824165842984', // 마리니
+  '957898242069266433', // cloe
+  '983184652204408862', // 홍경
 ];
 
 const companies = [
@@ -81,10 +83,6 @@ const companies = [
     companyName: '창업지원단',
     members: [
       { userId: userData.pomo, level: 'c' },
-      // { userId: userData.sojim, level: 'v' },
-      // { userId: userData.fruitring, level: 's' },
-      // { userId: userData.gd, level: 's' },
-      // { userId: userData.dduck, level: 's' },
       { userId: userData.lua, level: 'e' },
       { userId: userData.chobom, level: 'e' },
       { userId: userData.nuri, level: 'e' },
@@ -112,8 +110,6 @@ const companies = [
       { userId: userData.project7, level: 's' },
       { userId: userData.jaylim, level: 'v' },
       { userId: userData.sunny, level: 's' },
-      // { userId: userData.haechan, level: "s" },
-      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
@@ -131,8 +127,6 @@ const companies = [
       { userId: userData.project7, level: 's' },
       { userId: userData.jaylim, level: 'v' },
       { userId: userData.sunny, level: 's' },
-      // { userId: userData.haechan, level: "s" },
-      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
@@ -150,8 +144,6 @@ const companies = [
       { userId: userData.project7, level: 's' },
       { userId: userData.jaylim, level: 'v' },
       { userId: userData.sunny, level: 's' },
-      // { userId: userData.haechan, level: "s" },
-      // { userId: userData.hydra, level: "s" },
     ],
   },
   {
