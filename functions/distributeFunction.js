@@ -10,6 +10,18 @@ const {
 const BankManager = require(`../bank/BankManager`);
 const bankManager = new BankManager();
 
+const { WebhookClient } = require('discord.js');
+const logWebHook = new WebhookClient({
+  url: 'https://discord.com/api/webhooks/1068137946710016050/zyeSgG2SmqMPpunxiNjlvAzZ50AWX-ygLntyV5KEQDSSsjQYRlIDZFPA3HmYmX-gR9B_',
+});
+async function log(text) {
+  try {
+    await logWebHook.send({ content: text });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
 async function distribute(interaction) {
   // if (interaction.user.id != ownerId) {
   //   await interaction.reply(`<@${ownerId}>만 명령어를 사용할 수 있습니다.`);
@@ -105,12 +117,14 @@ async function distribute(interaction) {
         `__${com.companyName}__ 사업체의 급여분배를 시작합니다.\n`
       );
 
+      let ceoWage = 0;
       for (let member of com.members) {
         if (member.level == 'c') {
           const weeklyWage = wage[member.level] * 7;
           try {
             // await bankManager.withdrawBTC(member.userId, String(weeklyWage));
             // message += `<@${member.userId}>에게 ${weeklyWage} BTC를 지급했습니다.\n`;
+            ceoWage += weeklyWage;
             message += `<@${member.userId}>의 직급이 사장이므로 급여를 분배하지 않습니다.\n`;
           } catch (e) {
             console.log(e);
@@ -149,6 +163,9 @@ async function distribute(interaction) {
           }
         }
       }
+      await log(
+        `작업자 : <@${interaction.user.id}>\n사업체 : ${com.companyName}\n사장 : ${ceoWage} BUG\n직원 : ${wageSum} BUG`
+      );
     }
   }
   await interaction.followUp(`${message}`);
