@@ -450,10 +450,13 @@ const companies = [
     companyName: '짤막하세',
     members: [
       { userId: userData.luckydouble, level: 'c' },
-      { userId: userData.kkom, level: 'e' },
-      { userId: userData.valeria, level: 'e' },
-      { userId: userData.chobom, level: 's' },
-      { userId: userData.syuyom, level: 's' },
+      { userId: userData.syuyom, level: 'e' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.clova, level: 'e' },
+      { userId: userData.womanpower, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.jia, level: 's' },
+      { userId: userData.heessugi, level: 's' },
     ],
   },
   {
