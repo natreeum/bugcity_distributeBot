@@ -400,7 +400,6 @@ const companies = [
       { userId: userData.ella, level: 's' },
       { userId: userData.clova, level: 's' },
       { userId: userData.womanpower, level: 's' },
-      { userId: userData.caessaem, level: 'e' },
     ],
   },
   {
