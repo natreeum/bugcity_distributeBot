@@ -124,6 +124,7 @@ const userData = {
   alcong: '481811351711252499',
   jinil: '785497856093323324',
   heessugi: '983216353030836234',
+  anssitgae: '966329542337757305',
 };
 
 module.exports = userData;

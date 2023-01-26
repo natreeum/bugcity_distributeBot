@@ -264,6 +264,7 @@ const companies = [
       { userId: userData.kumamo, level: 'e' },
       { userId: userData.donggga, level: 'e' },
       { userId: userData.rescall, level: 'e' },
+      { userId: userData.anssitgae, level: 'e' },
     ],
   },
   {
@@ -305,6 +306,7 @@ const companies = [
       { userId: userData.kumamo, level: 'e' },
       { userId: userData.donggga, level: 'e' },
       { userId: userData.rescall, level: 'e' },
+      { userId: userData.anssitgae, level: 'e' },
     ],
   },
   {
@@ -321,6 +323,7 @@ const companies = [
       { userId: userData.kumamo, level: 'e' },
       { userId: userData.donggga, level: 'e' },
       { userId: userData.rescall, level: 'e' },
+      { userId: userData.anssitgae, level: 'e' },
     ],
   },
   {
