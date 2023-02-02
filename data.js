@@ -714,29 +714,38 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '벅자까야',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.syeoni, level: 'c' },
+      { userId: userData.metaluca, level: 'e' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.michellemarine, level: 's' },
+      { userId: userData.seoyoung, level: 's' },
+      { userId: userData.jonbirgod, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '헤어지지마',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.haenssugi, level: 'c' },
+      { userId: userData.ella, level: 'e' },
+      { userId: userData.nalrari, level: 's' },
+      { userId: userData.seoyoung, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '벅동산',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.nalrari, level: 'c' },
+      { userId: userData.seoyoung, level: 'e' },
+      { userId: userData.yoronge, level: 'e' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.yuchaehyang, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.womanpower, level: 's' },
+      { userId: userData.jonbirgod, level: 's' },
     ],
   },
   {
