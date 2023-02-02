@@ -750,11 +750,10 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '마음덕담소',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.luckydouble, level: 'c' },
+      { userId: userData.haenssugi, level: 's' },
     ],
   },
   {
