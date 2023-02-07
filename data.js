@@ -683,7 +683,7 @@ const companies = [
       { userId: userData.minisco, level: 'c' },
       { userId: userData.tinley, level: 'e' },
       { userId: userData.meira, level: 'e' },
-      { userId: userData.naldasooni, level: 's' },
+      { userId: userData.naldasooni, level: 'e' },
       { userId: userData.buggoori, level: 's' },
       { userId: userData.nadame, level: 's' },
       { userId: userData.bogaro, level: 's' },
