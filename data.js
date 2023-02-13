@@ -756,6 +756,7 @@ const companies = [
     members: [
       { userId: userData.luckydouble, level: 'c' },
       { userId: userData.haenssugi, level: 's' },
+      { userId: userData.hongkyung, level: 's' },
     ],
   },
   {
