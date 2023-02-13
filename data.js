@@ -732,8 +732,10 @@ const companies = [
     members: [
       { userId: userData.haenssugi, level: 'c' },
       { userId: userData.ella, level: 'e' },
-      { userId: userData.nalrari, level: 's' },
+      { userId: userData.nalrari, level: 'e' },
       { userId: userData.seoyoung, level: 's' },
+      { userId: userData.syeoni, level: 's' },
+      { userId: userData.anssitgae, level: 's' },
     ],
   },
   {
