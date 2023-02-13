@@ -763,11 +763,18 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '니맘내맘아트',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.ella, level: 'c' },
+      { userId: userData.clova, level: 'c' },
+      { userId: userData.syeoni, level: 'e' },
+      { userId: userData.reho, level: 'e' },
+      { userId: userData.iliruda, level: 'e' },
+      { userId: userData.dudung, level: 's' },
+      { userId: userData.jia, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.womanpower, level: 's' },
+      { userId: userData.bona, level: 's' },
     ],
   },
   {

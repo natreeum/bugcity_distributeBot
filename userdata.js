@@ -126,6 +126,7 @@ const userData = {
   heessugi: '983216353030836234',
   anssitgae: '966329542337757305',
   jonbirgod: '986410562298736660',
+  bona: '972734883929653258',
 };
 
 module.exports = userData;
