@@ -127,6 +127,10 @@ const userData = {
   anssitgae: '966329542337757305',
   jonbirgod: '986410562298736660',
   bona: '972734883929653258',
+  sanho: '983095082448199710',
+  cocostar: '957986248004349972',
+  chaem: '954010827646726155',
+  namsoon: '1019817110077194250',
 };
 
 module.exports = userData;

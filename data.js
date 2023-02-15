@@ -757,8 +757,10 @@ const companies = [
     companyName: '마음덕담소',
     members: [
       { userId: userData.luckydouble, level: 'c' },
-      { userId: userData.haenssugi, level: 's' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.chobom, level: 'e' },
       { userId: userData.hongkyung, level: 's' },
+      { userId: userData.anssitgae, level: 's' },
     ],
   },
   {
@@ -779,11 +781,14 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '뜨개놀이터',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.yuchaehyang, level: 'c' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.heessugi, level: 'e' },
+      { userId: userData.iliruda, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.jia, level: 's' },
     ],
   },
   {
@@ -806,47 +811,66 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '꿈꾸는서각',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.sanho, level: 'c' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.jia, level: 'e' },
+      { userId: userData.yuchaehyang, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.iliruda, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '니복은지금부터',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.jia, level: 'c' },
+      { userId: userData.nalrari, level: 'e' },
+      { userId: userData.michellemarine, level: 'e' },
+      { userId: userData.utja, level: 'e' },
+      { userId: userData.ella, level: 's' },
+      { userId: userData.daengdaeng, level: 's' },
+      { userId: userData.caessaem, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '소리로이루다',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.iliruda, level: 'c' },
+      { userId: userData.nalrari, level: 'e' },
+      { userId: userData.womanpower, level: 'e' },
+      { userId: userData.ella, level: 'e' },
+      { userId: userData.jia, level: 's' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.cocostar, level: 's' },
+      { userId: userData.reho, level: 's' },
+      { userId: userData.clova, level: 's' },
+      { userId: userData.chaem, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '파워영상편집',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.womanpower, level: 'c' },
+      { userId: userData.clova, level: 'e' },
+      { userId: userData.nalrari, level: 'e' },
+      { userId: userData.syeoni, level: 's' },
+      { userId: userData.ella, level: 's' },
+      { userId: userData.caessaem, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '상상나라',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.heessugi, level: 'c' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.yuchaehyang, level: 'e' },
+      { userId: userData.seoyoung, level: 's' },
+      { userId: userData.namsoon, level: 's' },
     ],
   },
   {
