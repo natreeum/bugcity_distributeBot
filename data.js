@@ -875,11 +875,15 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '뚝딱네모벅셀',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.lua, level: 'c' },
+      { userId: userData.ella, level: 'e' },
+      { userId: userData.caessaem, level: 'e' },
+      { userId: userData.seoyoung, level: 's' },
+      { userId: userData.haenssugi, level: 's' },
+      { userId: userData.nalrari, level: 's' },
+      { userId: userData.chobom, level: 's' },
     ],
   },
   {
