@@ -860,6 +860,7 @@ const companies = [
       { userId: userData.syeoni, level: 's' },
       { userId: userData.ella, level: 's' },
       { userId: userData.caessaem, level: 's' },
+      { userId: userData.heessugi, level: 's' },
     ],
   },
   {
