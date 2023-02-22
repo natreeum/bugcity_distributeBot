@@ -21,6 +21,7 @@ class BankManager {
       );
       if (depositRes) {
         await log(`[DEPOSIT SUCCESS] <@${userId}> - ${amount} BTC`);
+        console.log(`[DEPOSIT SUCCESS] <@${userId}> - ${amount} BTC`);
         return depositRes;
       } else {
         throw new Error('failed');
@@ -46,6 +47,7 @@ class BankManager {
       );
       if (withdrawRes) {
         await log(`[WITHDRAW SUCCESS] <@${userId}> - ${amount} BTC`);
+        console.log(`[WITHDRAW SUCCESS] <@${userId}> - ${amount} BTC`);
         return withdrawRes;
       } else {
         throw new Error('failed');
@@ -67,7 +69,7 @@ class BankManager {
           },
         }
       );
-      return btcBalance.data.point.current;
+      return btcBalance.data;
     } catch (e) {
       console.error(e);
       return;

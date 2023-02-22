@@ -7,7 +7,7 @@ const {
   ownerId,
   staffs,
 } = require(`../data`);
-const BankManager = require(`../bank/BankManager`);
+const BankManager = require(`../bank/BankManagerV2`);
 const bankManager = new BankManager();
 
 const { webhook2 } = require('../config');
