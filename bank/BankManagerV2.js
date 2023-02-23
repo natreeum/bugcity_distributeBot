@@ -21,7 +21,7 @@ class BankManager {
       );
       if (depositRes) {
         await log(`[DEPOSIT SUCCESS] <@${userId}> - ${amount} BTC`);
-        console.log(`[DEPOSIT SUCCESS] <@${userId}> - ${amount} BTC`);
+        console.log(`[DEPOSIT SUCCESS] ${userId} - ${amount} BTC`);
         return depositRes;
       } else {
         throw new Error('failed');
