@@ -47,7 +47,7 @@ class BankManager {
       );
       if (withdrawRes) {
         await log(`[WITHDRAW SUCCESS] <@${userId}> - ${amount} BTC`);
-        console.log(`[WITHDRAW SUCCESS] <@${userId}> - ${amount} BTC`);
+        console.log(`[WITHDRAW SUCCESS] ${userId} - ${amount} BTC`);
         return withdrawRes;
       } else {
         throw new Error('failed');
