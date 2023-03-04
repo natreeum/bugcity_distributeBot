@@ -765,7 +765,7 @@ const companies = [
   },
   {
     // 양식
-    companyName: '니맘내맘아트',
+    companyName: '엘라삘애니',
     members: [
       { userId: userData.ella, level: 'c' },
       { userId: userData.clova, level: 'c' },
@@ -861,6 +861,7 @@ const companies = [
       { userId: userData.ella, level: 's' },
       { userId: userData.caessaem, level: 's' },
       { userId: userData.heessugi, level: 's' },
+      { userId: userData.dreamiroom, level: 's' },
     ],
   },
   {
@@ -889,20 +890,27 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '몸바세',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.clova, level: 'c' },
+      { userId: userData.ella, level: 'c' },
+      { userId: userData.reho, level: 's' },
+      { userId: userData.dudung, level: 's' },
+      { userId: userData.iliruda, level: 's' },
+      { userId: userData.womanpower, level: 's' },
     ],
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '커스텀스토어',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.martian, level: 'c' },
+      { userId: userData.lua, level: 'e' },
+      { userId: userData.chobom, level: 'e' },
+      { userId: userData.michellemarine, level: 's' },
+      { userId: userData.nalrari, level: 's' },
+      { userId: userData.maksae, level: 's' },
+      { userId: userData.reho, level: 's' },
     ],
   },
   {

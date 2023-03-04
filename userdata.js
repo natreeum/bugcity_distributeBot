@@ -131,6 +131,8 @@ const userData = {
   cocostar: '957986248004349972',
   chaem: '954010827646726155',
   namsoon: '1019817110077194250',
+  dreamiroom: '992910136416927804',
+  martian: '923914608958402610',
 };
 
 module.exports = userData;
