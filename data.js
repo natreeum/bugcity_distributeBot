@@ -915,11 +915,16 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '든별의음연방',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.deunbyeol, level: 'c' },
+      { userId: userData.haenssugi, level: 'e' },
+      { userId: userData.kumamo, level: 'e' },
+      { userId: userData.chobom, level: 'e' },
+      { userId: userData.pazzomi, level: 's' },
+      { userId: userData.cloe, level: 's' },
+      { userId: userData.meira, level: 's' },
+      { userId: userData.cos, level: 's' },
     ],
   },
   {

@@ -133,6 +133,8 @@ const userData = {
   namsoon: '1019817110077194250',
   dreamiroom: '992910136416927804',
   martian: '923914608958402610',
+  deunbyeol: '896799536566112316',
+  cos: '934788445828702209',
 };
 
 module.exports = userData;
