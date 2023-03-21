@@ -135,6 +135,8 @@ const userData = {
   martian: '923914608958402610',
   deunbyeol: '896799536566112316',
   cos: '934788445828702209',
+  gost77: '922824026961887252',
+  luvly: '1048964910224261190',
 };
 
 module.exports = userData;

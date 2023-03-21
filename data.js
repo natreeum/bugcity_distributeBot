@@ -195,11 +195,11 @@ const companies = [
     // 사냥터
     companyName: '버람의나라',
     members: [
-      { userId: userData.juin10, level: 'c' },
-      { userId: userData.sis, level: 'e' },
+      { userId: userData.juin10, level: 'e' },
+      { userId: userData.sis, level: 'c' },
       { userId: userData.qudi, level: 'e' },
       { userId: userData.jjambob, level: 's' },
-      { userId: userData.ddpson, level: 's' },
+      { userId: userData.luvly, level: 's' },
     ],
   },
   {
@@ -236,11 +236,12 @@ const companies = [
       { userId: userData.nuri, level: 'c' },
       { userId: userData.chobom, level: 'c' },
       { userId: userData.jinhyeok, level: 'e' },
-      { userId: userData.lua, level: 'e' },
+      // { userId: userData.lua, level: 'e' },
       { userId: userData.jinil, level: 's' },
+      { userId: userData.lua, level: 's' },
       { userId: userData.huf, level: 'e' },
-      { userId: userData.ddpson, level: 's' },
-      { userId: userData.jjoro, level: 's' },
+      // { userId: userData.ddpson, level: 's' },
+      // { userId: userData.jjoro, level: 's' },
       // { userId: userData.uncover, level: 's' },
     ],
   },
@@ -443,6 +444,7 @@ const companies = [
       { userId: userData.clova, level: 's' },
       { userId: userData.ella, level: 's' },
       { userId: userData.syeoni, level: 'e' }, // 셔니
+      { userId: userData.gost77, level: 'e' },
     ],
   },
   {
