@@ -137,6 +137,7 @@ const userData = {
   cos: '934788445828702209',
   gost77: '922824026961887252',
   luvly: '1048964910224261190',
+  cube: '884019696704315412',
 };
 
 module.exports = userData;

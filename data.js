@@ -932,11 +932,13 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '스킬석거래소',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.juin10, level: 'c' },
+      { userId: userData.qudi, level: 'e' },
+      { userId: userData.sis, level: 'e' },
+      { userId: userData.cube, level: 's' },
+      { userId: userData.luvly, level: 's' },
     ],
   },
   {
