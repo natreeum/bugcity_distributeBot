@@ -943,11 +943,13 @@ const companies = [
   },
   {
     // 양식
-    companyName: '사업체 이름',
+    companyName: '버람의나라무기상점',
     members: [
-      { userId: userData.사장, level: 'c' },
-      { userId: userData.임원, level: 'e' },
-      { userId: userData.직원, level: 's' },
+      { userId: userData.cube, level: 'c' },
+      { userId: userData.juin10, level: 'e' },
+      { userId: userData.utja, level: 's' },
+      { userId: userData.reho, level: 's' },
+      { userId: userData.jian, level: 's' },
     ],
   },
   {

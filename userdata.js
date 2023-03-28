@@ -138,6 +138,7 @@ const userData = {
   gost77: '922824026961887252',
   luvly: '1048964910224261190',
   cube: '884019696704315412',
+  jian: '997201403472793611',
 };
 
 module.exports = userData;
